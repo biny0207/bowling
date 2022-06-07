@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>볼링에 빠지다</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #ffffff;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 20px;
+      text-align: center;
+      background: rgb(250, 250, 250);
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(224, 82, 46);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 20px 40px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 70%;
+    }
+    
+    /* Right column */
+    .rightcolumn {
+      float: left;
+      width: 30%;
+      background-color: #f1f1f1;
+      padding-left: 20px;
+    }
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+<body>
+      
+ <div class="header">
+    <h1>볼링에 빠지다</h1>
+    <p>헤어나올수 없는 매력, 볼링! 함께 하실래요?</p>
+  </div>
+
+      <div class="topnav">
+        <a href="index.html">홈페이지</a>
+        <a href="html/explain.html">소개</a>
+        <a href="html/rule.html">규칙</a>
+        <a href="html/grip.html">자세/그립</a>
+        <a href="html/equipment.html">장비</a>
+        <a href="html/place.html">볼링장 위치</a>
+      </div>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>핀을 쓰러뜨리는 즐거움!</h2>
+            <img src="./image/intro title.jpg" alt="인트로1" style="width: 80%;height: 100%;"></a>
+          </div>
+          <div class="card">
+            <h2>손 끝에 전해지는 짜릿함!</h2>
+            <img src="./image/shot.jpg" alt="인트로2" style="width: 80%;height: 100%;">
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>야! 너도 볼링칠수 있어!</h2>
+            <img src="./image/yanado.jpg" alt="인트로3" style="width: 100%;height: 80%;">
+            <p>오로지 자기 자신과의 싸움!</p>
+          </div>
+          <div class="card">
+            <h3>볼링에 대해 알고싶다고? 드루와!</h3>
+            <img src="./image/come.jpg" alt="인트로4" style="width: 100%;height: 100%;">
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="footer">
+        <h2></h2>
+      </div>
+
+</body>
+</html>

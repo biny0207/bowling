@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>볼링 소개</title>
+</head>
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    
+    /* Header/Blog Title */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    }
+    
+    .header h1 {
+      font-size: 50px;
+    }
+    
+    /* Style the top navigation bar */
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(224, 82, 46);
+    }
+    
+    /* Style the topnav links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 20px 40px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: center;
+      width: 80%;
+    }
+    
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+      margin-top: 20px;
+    }
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }
+    
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+    </style>
+<body>
+    
+      
+    <div class="topnav">
+        <a href="../index.html">홈페이지</a>
+        <a href="../html/explain.html">소개</a>
+        <a href="../html/rule.html">규칙</a>
+        <a href="../html/grip.html">자세/그립</a>
+        <a href="../html/equipment.html">장비</a>
+        <a href="../html/place.html">볼링장 위치</a>
+      </div>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>볼링이란?</h2>
+            <img src="../image/explain1.jpg" alt="소개1" style="width: 50%;height: 30%;"></a>
+            <p>볼링(Bowling)은 공을 손으로 바닥에 굴려 실력을 겨루는 구기종목을 포괄적으로 부르는 명칭으로, 대한민국에서는 보통 볼링이라 하면 레인 끝에 있는 10개의 핀을 공을 굴려 넘어뜨리는 '텐핀 볼링'을 의미한다.</p>
+            <p>보통은 레저 스포츠로 분류되며, 올림픽 종목은 아니지만 아시안 게임과 데플림픽에서는 정식 종목이다. 그래서 월드 게임에도 해당 종목이 있다.</p>
+            <p>얼핏 보기엔 쉬워 보이지만, 어떤 스포츠든 기본적인 매커니즘과 테크닉이 수반되지 않으면 높은 점수를 받을 수가 없고 볼링 역시 예외는 아니다. 초보자가 무턱대고 레인에 오르면 거터로만 굴러가는 볼링공을 보며 좌절하는 자신을 발견하게 된다.</p>
+            <p>심지어 프로 선수들조차 종종 스페어 커버를 하지 못하는 경우가 발생한다. 그만큼 마인드 컨트롤과 숙련도, 기초 운동신경이 중요한 스포츠다.</p>
+          </div>
+
+          <div class="card">
+            <h2>볼링의 역사</h2>
+            <h5>BC 5200년 무렵, 고대 이집트에서 시작!</h5>
+            <img src="../image/explain2.jpg" alt="소개2" style="width: 50%;height: 30%;"></a>
+            <p>볼링은 돌을 던지거나 굴려서 표적에 맞추려는 인간의 본능에서 발생된 것으로 보인다. BC 5200년 무렵의 이집트 유적에서 돌로 된 핀이 발견되었는데, 이것이 고대 볼링 용구가 아닌가 생각된다.</p>
+            <p>의식으로서 승려나 교구민들이 나뭇조각 쓰러뜨리기를 했는데, 이것이 현재의 볼링의 원형이라 알려져 있다. 16세기 독일의 종교개혁가 M. 루터가 현대와 같은 볼링 경기룰의 기초를 만들었다고 하며 17세기에는 아메리카대륙에 전해져 급속히 퍼졌다.</p>
+            <p>1895년 미국볼링협회가 발족하면서 전 세계로 보급되어, 현재 국제볼링연맹(FIQ)에는 수많은 국가들이 가맹되어 있다.</p>
+         </div>
+
+          <div class="card">
+            <h2>현대 볼링의 시작</h2>
+            <h5>종교 의식으로 시작되었던 9핀 볼링</h5>
+            <img src="../image/explain3.jpg" alt="소개3" style="width: 50%;height: 30%;"></a>
+            <p>현대적인 모습의 볼링과 가장 근접한 모습을 보였던 것은 13~14세기 독일에서 생겨난 케글링(kegling)이란 게임이다. 이 게임은 악마의 상징인 케글레(kegle)라는 나무조각을 수도원 끝에 세워놓고, 돌로 만든 공을 굴려서 악마 퇴치를 하는 '의식'에 가까웠으며, 케겔을 잘 쓰러트릴수록 신앙심이 두터운 증거라고 보았다. 한 라디오 방송에 의하면 공을 던지면서 "내 탓이오"라고 했단다.</p>
+            <p>이 케글링은 독일 전역으로 퍼지면서 원래는 하나였던 케겔이 적게는 3개, 많으면 14개로 늘어가며 케겔의 수가 중구난방이었다.</p>
+            <p>마르틴 루터가 바로 이 케글링에 열렬한 팬으로써, 현재의 볼링핀의 시초가 되는 케겔을 9개로 규정하고 이를 다이아몬드 모양으로 진형을 세워 쓰러트리게 한 것이 바로 9핀 볼링의 시초다. 실제로 마르틴 루터는 집에 볼링 레인을 설치하고 가족과 방문자이 게임을 즐길수 있게 했다. 그리고 머지않아 케글링은 유럽 각지로 퍼져나가면서 스코틀랜드에까지 유행했다.</p>
+        </div>
+
+          <div class="card">
+            <h2>오늘날의 볼링</h2>
+            <h5>17세기 미국에서 시작</h5>
+            <img src="../image/explain4.jpg" alt="소개4" style="width: 50%;height: 30%;"></a>
+            <p>오늘날 현대적인 룰은 미국에서 시작했다. 이미 17세기 식민지 시절부터 나인핀 볼링, 위에서 설명했던 론 볼스 등등이 유행했고, 심지어는 제임스타운의 론 볼스 경기장까지 17세기 중반에 지어졌을 정도였다.</p>
+            <p>유럽 각지에서 몰려온 볼링 형태 중에 가장 인기가 높았던 것은 나인핀 볼링이었고, 1840년에는 니커보커 앨리스(Knickerbocker-Alleys)라는 최고 규모의 실내 볼링장까지 세워질 정도로 볼링은 미국에서 꾸준한 인기를 얻고 있었다. 맨해튼 각지에 볼링장이 지어진건 바로 이때부터였다.</p>
+            <p>그러다가 이 볼링장들은 점차 도박을 비롯한 각종 사행성을 띠게 되어 볼링핀이 몇 개 쓰러지는지에 대해서 돈을 걸 정도로 도박의 온상지가 되어버렸으며, 심지어는 전재산을 날리는 사람까지 있었을 정도였다. 결국 니커보커 앨리스가 세워진 바로 1년만인 1841년 초 코네티컷주 법원은 나인핀 볼링을 금지시켰고 뉴욕주와 뉴잉글랜드 등을 필두로 여러 주에서 나인핀 볼링을 금지하였다.</p>
+            <p>따라서 미국의 볼링은 텐핀으로 바뀌게 되었다. 대형은 10개 핀에 삼각형 대형을 이루게 되었고, 1842년에는 미국 전국볼링협회(NBA)가 설립되고, 1895년 볼링의 총 지위체인 미국볼링협회(American Bowling Congress: ABC)가 창립되면서 급격히 확산되었다. 레인의 길이, 볼링핀의 간격, 볼의 크기 등등 세세한 규정이 정해진 것은 바로 이때다.</p>
+            <p>그리고 1951년에 볼링핀 설치 기계가 발명되어 볼링은 전 세계적으로 레저스포츠로써 널리 퍼져나가게 되었다. 1958년에는 현존하는 최고의 볼링 대회 중 하나인 PBA (Professional Bowlers Association)가 미국에서 창설되어 현재까지 볼링 명문 지역의 명맥을 이어가고 있다.</p>
+            <p>흔히 말하는 텐핀 볼링 외에 전술한 케글링도 볼링의 한 종류으로서 유럽 지역에서 계속 성행하고 있으며, 미국 일부 동북 지역에는 더 작은 핀들과 공을 사용하는 캔들핀(Candlepin) 볼링이나 덕핀(Duckpin) 볼링도 존재한다.[7] 물론 현대 텐핀 볼링만큼 메이저하진 않지만 엄연히 프로 선수들과 대회가 존재한다.</p>
+
+        </div>
+    
+      
+      <div class="footer">
+        <h2></h2>
+      </div>
+
+</body>
+</html>
